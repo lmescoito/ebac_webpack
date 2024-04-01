@@ -50,7 +50,7 @@ module.exports = {
     plugins: [
         new HtmlWebpack({
             filename: 'index.html',
-            template: './src/index.html'
+            template: './src/index.html' 
         }),
         new MiniCssExtract({
             filename: 'style.css'
